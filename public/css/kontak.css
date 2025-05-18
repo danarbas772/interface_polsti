@@ -1,0 +1,122 @@
+.kontak-container {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 20px 30px;
+    background-color: #f9f9f9;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+}
+
+.kontak-container h1 {
+    text-align: center;
+    font-size: 2.8rem;
+    margin-bottom: 30px;
+    color: #2c3e50;
+    font-weight: 700;
+}
+
+.kontak-container section {
+    margin-bottom: 30px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #ddd;
+}
+
+.kontak-container section:last-child {
+    border-bottom: none;
+}
+
+.kontak-container h2 {
+    font-size: 1.8rem;
+    color: #34495e;
+    margin-bottom: 15px;
+    font-weight: 600;
+    border-left: 5px solid #2980b9;
+    padding-left: 12px;
+}
+
+.kontak-container p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #555;
+}
+
+.map-container {
+    margin-top: 15px;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.kontak-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.kontak-form .form-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.kontak-form label {
+    font-weight: 600;
+    margin-bottom: 6px;
+    color: #34495e;
+}
+
+.kontak-form input,
+.kontak-form textarea {
+    padding: 10px 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 1rem;
+    resize: vertical;
+}
+
+.kontak-form input:focus,
+.kontak-form textarea:focus {
+    outline: none;
+    border-color: #2980b9;
+    box-shadow: 0 0 5px rgba(41, 128, 185, 0.5);
+}
+
+.btn-submit {
+    align-self: flex-start;
+    padding: 10px 24px;
+    background-color: #2980b9;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn-submit:hover {
+    background-color: #1c5980;
+}
+
+.social-icons {
+    display: flex;
+    gap: 15px;
+    margin-top: 10px;
+}
+
+.social-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 38px;
+    height: 38px;
+    background-color: #2980b9;
+    border-radius: 50%;
+    color: white;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.social-icon:hover {
+    background-color: #1c5980;
+}
